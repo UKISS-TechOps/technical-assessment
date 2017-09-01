@@ -1,0 +1,35 @@
+---
+
+- name: Create web root directory
+  file:
+    path: /var/www/sites
+    recurse: yes
+    state: directory
+    owner: candidate
+    group: candidate
+    mode: 0775
+  become: yes
+
+- name: Create symlinks from webroot to projectroot for TechnicalAssessment
+  file:
+    src: /var/www/technical-assessment/public
+    dest: "/var/www/sites/TechnicalAssessment"
+    state: link
+    owner: candidate
+    group: candidate
+
+- name: Create /logs
+  file:
+    path: /logs
+    state: directory
+    mode: 0755
+    owner: candidate
+    group: candidate
+
+- name: Create symlinks from /logs to application logs location
+  file:
+    src: /var/www/technical-assessment/storage/logs
+    dest: "/logs/TechnicalAssessment"
+    state: link
+    owner: candidate
+    group: candidate

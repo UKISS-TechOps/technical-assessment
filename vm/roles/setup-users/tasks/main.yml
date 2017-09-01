@@ -1,0 +1,27 @@
+---
+# tasks file for setup-users.yml
+
+- name: Create candidate user
+  user:
+    name: candidate
+    uid: 4665
+    groups: vagrant
+    password: "{{ password }}"
+
+#- name: Add my SSH key to my new User
+#  authorized_key:
+#    user: candidate
+#    state: present
+#    key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+
+- name: Change default root user password
+  user:
+    name: root
+    password: "{{ password }}"
+
+- name: Add candidate to sudoers
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^candidate ALL='
+    line: 'candidate ALL=(ALL) NOPASSWD: ALL'

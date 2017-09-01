@@ -1,0 +1,7 @@
+---
+# This playbook sets up the whole application stack.
+
+  - include: playbooks/setup-users.yml
+  - include: playbooks/setup-files.yml
+  - include: playbooks/install-dependencies.yml
+  - include: playbooks/install-project.yml

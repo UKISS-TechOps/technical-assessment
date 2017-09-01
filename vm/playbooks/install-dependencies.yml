@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  become: yes
+  remote_user: candidate
+
+  roles:
+    - ../roles/install-yum-packages
+    - ../roles/install-yum-packages-testing
+    - ../roles/apache
+    - ../roles/composer

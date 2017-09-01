@@ -1,0 +1,6 @@
+---
+
+- name: Install php xdebug as required for testing
+  yum:
+    pkg: "php70w-pecl-xdebug"
+    state: latest

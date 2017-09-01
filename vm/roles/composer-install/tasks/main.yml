@@ -1,0 +1,6 @@
+---
+
+- name: Composer install as candidate
+  composer:
+    command: install
+    working_dir: /var/www/technical-assessment
