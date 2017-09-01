@@ -18,7 +18,7 @@ By default, Vagrant will create the `candidate` user and expose port 8000.
 
 Run the below commands to set up the project.
 
-```sh000000
+```sh
 git clone https://github.com/UKISS-TechOps/technical-assessment.git
 cd technical-assessment
 vagrant up
