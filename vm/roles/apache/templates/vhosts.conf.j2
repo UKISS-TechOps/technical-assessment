@@ -1,5 +1,8 @@
 {{ apache_global_vhost_settings }}
 
+User {{ apache_user }}
+Group {{ apache_group }}
+
 {# Set up VirtualHosts #}
 {% for vhost in apache_vhosts %}
 <VirtualHost {{ apache_listen_ip }}:{{ apache_listen_port }}>

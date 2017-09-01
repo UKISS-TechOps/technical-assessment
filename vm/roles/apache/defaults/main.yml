@@ -1,4 +1,7 @@
 ---
+apache_user: "candidate"
+apache_group: "candidate"
+
 apache_enablerepo: ""
 
 apache_listen_ip: "*"
