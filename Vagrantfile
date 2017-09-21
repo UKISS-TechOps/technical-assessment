@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 Vagrant.configure(2) do |config|
     config.vm.define "technicalAssessment"
-    config.vm.box = "boxcutter/centos72"
+    config.vm.box = "centos/7"
 
     # KNOWN ISSUE WITH VAGRANT 1.8.5 - https://github.com/mitchellh/vagrant/issues/7610
     config.ssh.insert_key = false
