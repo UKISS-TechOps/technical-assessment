@@ -4,6 +4,8 @@
 
 The technical-assessment uses a number of open source projects to work properly:
 
+* [VirtualBox] - Virtualization tool
+* [Git] - Version Control
 * [Vagrant] - The development environment build tool.
 * [ansible/ansible] - The automation platform.
 * [laravel/framework] - The PHP framework for the project.
