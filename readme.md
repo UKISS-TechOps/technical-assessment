@@ -34,9 +34,17 @@ http://127.0.0.1:8000/TechnicalAssessment
 
 ### Assessment
 
-Follow the instructions on the home page of the web app and complete the exercise.
+The following log file (xml/application_test.09-17.log) is artificially generated but represents similar logs that we regularly work with. We often need to cross-reference data from application logs with databases or other data sets.
 
-Submit a pull request to this repo with your work.
+Your task is to extract data from the XML contained in the log.
+
+You should extract the following fields in this order, this represents the CSV header.
+
+Timestamp,authIdentifier,indexType,IndexName,sandwich
+
+You should be able to explain how your system works.
+
+The xml contained in the example log file MAY NOT be valid XML.
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.)
