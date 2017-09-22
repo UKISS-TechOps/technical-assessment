@@ -33,3 +33,7 @@
     state: link
     owner: candidate
     group: candidate
+
+- name: Set SeLinux to permissive
+  command: setenforce 0
+  become: yes  
