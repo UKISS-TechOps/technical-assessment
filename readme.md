@@ -27,6 +27,7 @@ cd technical-assessment
 vagrant up
 ```
 
+The first time you run the command "vagrant up" it may take several minutes.
 Depending on the operational system your host machine uses, you might need to run the following command;
 
 ```sh
