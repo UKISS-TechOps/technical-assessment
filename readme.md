@@ -9,6 +9,7 @@ The technical-assessment uses a number of open source projects to work properly:
 * [Vagrant] - The development environment build tool.
 * [ansible/ansible] - The automation platform.
 * [laravel/framework] - The PHP framework for the project.
+* [Laravel/Help-Tutorials] - Laravel training
 
 Before starting, you must have installed in your local machine [Vagrant], [VirtualBox] and [Git].
 
@@ -54,3 +55,4 @@ The xml contained in the example log file MAY NOT be valid XML.
    [Vagrant]: <https://www.vagrantup.com/>
    [ansible/ansible]: <https://github.com/ansible/ansible>
    [laravel/framework]: <https://github.com/laravel/framework>
+   [Laravel/Help-Tutorials]: <https://laracasts.com/series/laravel-from-scratch-2017/episodes/2?autoplay=true>
