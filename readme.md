@@ -10,7 +10,7 @@ The technical-assessment uses a number of open source projects to work properly:
 * [ansible/ansible] - The automation platform.
 * [laravel/framework] - The PHP framework for the project.
 
-Before starting, you must have set up [Vagrant] on your computer and have a [Github] account.
+Before starting, you must have installed in your local machine [Vagrant], [VirtualBox] and [Git].
 
 ### Local Installation
 
