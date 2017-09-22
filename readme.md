@@ -27,6 +27,13 @@ cd technical-assessment
 vagrant up
 ```
 
+Depending on the operational system your host machine uses, you might need to run the following command;
+
+```sh
+vagrant plugin install vagrant-vbguest
+```
+
+
 Verify the deployment by navigating to your server address in your preferred browser.
 
 ```sh
