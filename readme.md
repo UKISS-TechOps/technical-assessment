@@ -39,7 +39,8 @@ Submit a pull request to this repo with your work.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.)
 
-   [Github]: <https://github.com/>
+   [VirtualBox]: <https://www.virtualbox.org/>
+   [Git]: <https://github.com/>
    [Vagrant]: <https://www.vagrantup.com/>
    [ansible/ansible]: <https://github.com/ansible/ansible>
    [laravel/framework]: <https://github.com/laravel/framework>
