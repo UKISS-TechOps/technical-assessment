@@ -48,6 +48,12 @@ You should be able to explain how your system works.
 The xml contained in the example log file MAY NOT be valid XML.
 
 
+### Assessment Requirements
+
+ * You should create a view with a text area in order to input the xml and a submit button.
+ * Once the data is submitted a csv file should be created.
+
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job.)
 
    [VirtualBox]: <https://www.virtualbox.org/>
