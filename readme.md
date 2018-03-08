@@ -17,19 +17,30 @@ Before starting, you must have installed in your local machine [Vagrant], [Virtu
 
 ### Local Installation
 
-The technical-assessment is very easy to install locally using Vagrant and Ansible.
-
-By default, Vagrant will create the `candidate` user and expose port 8000.
-
-Run the below commands to set up the project.
+1 - Install Virtualbox in your local machine.
+2 - Install Vagrant in your local machine.
+3 - Install git on your local macine.
+4 - Select a directory in your local machine to install the project. 
+```sh
+For instance, create a directory inside your Desktop folder called "dev"
+```
+5- Using a command line terminal navigate to the directory you just created and clone the project inside it.
 
 ```sh
 git clone https://github.com/UKISS-TechOps/technical-assessment.git
-cd technical-assessment
-vagrant up
 ```
-
+6 - It will careate a directory called technical-assessment, which contains the code for this assessment.
+7 - Nagivate into it.
+```sh
+cd technical-assessment
+``` 
+8- You are now able to spin up the local development environment. Vagrant should do everything for you automatically by running the command "vagrant up"
+```sh
+vagrant up
+``` 
 The first time you run the command "vagrant up" it may take several minutes.
+
+By default, Vagrant will create the `candidate` user and expose port 8000.
 
 Verify the deployment by navigating to your server address in your preferred browser.
 
