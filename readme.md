@@ -17,24 +17,24 @@ Before starting, you must have installed in your local machine [Vagrant], [Virtu
 
 ### Local Installation
 
-1 - Install Virtualbox in your local machine.
-2 - Install Vagrant in your local machine.
-3 - Install git on your local macine.
-4 - Select a directory in your local machine to install the project. 
+- Install Virtualbox in your local machine.
+- Install Vagrant in your local machine.
+- Install git on your local macine.
+- Select a directory in your local machine to install the project. 
 ```sh
 For instance, create a directory inside your Desktop folder called "dev"
 ```
-5- Using a command line terminal navigate to the directory you just created and clone the project inside it.
+- Using a command line terminal navigate to the directory you just created and clone the project inside it.
 
 ```sh
 git clone https://github.com/UKISS-TechOps/technical-assessment.git
 ```
-6 - It will careate a directory called technical-assessment, which contains the code for this assessment.
-7 - Nagivate into it.
+- It will careate a directory called technical-assessment, which contains the code for this assessment.
+- Nagivate into it.
 ```sh
 cd technical-assessment
 ``` 
-8- You are now able to spin up the local development environment. Vagrant should do everything for you automatically by running the command "vagrant up"
+- You are now able to spin up the local development environment. Vagrant should do everything for you automatically by running the command "vagrant up"
 ```sh
 vagrant up
 ``` 
